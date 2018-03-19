@@ -7,8 +7,21 @@
     tools:context="com.vmetis.jackpark.MainActivity">
 
     <TextView
+        android:id="@+id/activity_main_tv_tip"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!" />
 
+    <EditText
+        android:id="@+id/activity_main_et_input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="100dp"/>
+
+    <Button
+        android:id="@+id/activity_main_btn_interact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="interact"
+        android:layout_marginTop="10dp"/>
 </LinearLayout>
